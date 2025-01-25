@@ -1,0 +1,18 @@
+---
+layout: home
+---
+
+![Profile Picture](/assets/images/professionalpicture_fathima.jpg){:class="profile-img"}
+
+## About me
+I’m Quhura Fathima, a software developer with 2+ years of experience in full-stack development and database optimization. I hold a Master’s in Computer Science and have worked at Accenture as an Application Development Associate, where I enhanced database performance, automated processes, and ensured high availability of critical systems. My technical skills include Java, React.js, Node.js, SAP HANA, MySQL, Python, and cloud platforms such as AWS and Azure. I have successfully deployed multiple projects, including a Course Advising Portal and Library Management System, leveraging modern technologies like Firebase, Render, and MySQL. Additionally, I am an active leader, serving as the President of ACM-W at Old Dominion University, where I spearhead initiatives to promote women in computing and foster community engagement. I am always eager to learn and apply new technologies to solve real-world problems, and I enjoy contributing to the tech community through leadership and collaboration.
+
+### Contact Information
+- **Email**: [quhurafathima56@gmail.com](mailto:quhurafathima56@gmail.com)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/quhurafathima/)
+
+## Resume
+You can download my resume as a PDF by clicking the link below:
+[Download Resume](assets/Resume_Latest_Fathima.pdf)
+
+---
