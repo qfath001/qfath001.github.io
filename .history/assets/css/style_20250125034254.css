@@ -12,7 +12,7 @@ body {
 header {
   background-color: #0066cc;  /* Deep blue header */
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;  /* Center header content */
 }
 
@@ -31,7 +31,6 @@ header h2 {
   margin-top: 0;
   font-weight: normal;      /* Optional: adjust the boldness */
 }
-
 
 /* Profile Image Centering and Size */
 .profile-img {

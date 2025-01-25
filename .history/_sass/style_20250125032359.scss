@@ -12,31 +12,14 @@ body {
 header {
   background-color: #0066cc;  /* Deep blue header */
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;  /* Center header content */
 }
 
-/* Title Styling for "Quhura Fathima" */
-header h1 {
-  color: white;  /* White color for name */
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-
-/* Subtitle Styling for "Computer Science Graduate Student at ODU" */
-/* Header Section - Subtitle Styling */
-header h2 {
-  color: white !important;  /* Ensure white color for subtitle */
-  font-size: 1.5em;         /* Adjust size as needed */
-  margin-top: 0;
-  font-weight: normal;      /* Optional: adjust the boldness */
-}
-
-
 /* Profile Image Centering and Size */
 .profile-img {
-  width: 220px;  /* Slightly increased image size */
-  height: 220px;
+  width: 180px;  /* Slightly increased image size */
+  height: 180px;
   border-radius: 50%;  /* Circular image */
   border: 5px solid white;  /* White border around image */
   margin-top: 20px;
@@ -52,7 +35,7 @@ section {
   background-color: white;  /* White background for content */
   padding: 30px;
   margin: 20px auto;  /* Center the section */
-  max-width: 1200px;  /* Set a reasonable max-width */
+  max-width: 900px;  /* Set a reasonable max-width */
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
   text-align: justify; /* Justify text for better readability */
@@ -73,7 +56,7 @@ p {
 
 /* Ensure content is centered with no excessive gaps */
 .content {
-  max-width: 1200px;  /* Limit content width */
+  max-width: 900px;  /* Limit content width */
   margin: 0 auto;  /* Center the content */
   padding: 0 15px;  /* Some padding for inner spacing */
 }

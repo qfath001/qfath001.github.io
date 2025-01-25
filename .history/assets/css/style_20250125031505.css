@@ -8,30 +8,13 @@ body {
   box-sizing: border-box;
 }
 
-/* Header Section */
+/* Header Styling */
 header {
   background-color: #0066cc;  /* Deep blue header */
   color: white;
-  padding: 20px;
-  text-align: center;  /* Center header content */
+  padding: 30px;
+  text-align: center;  /* Ensure everything is centered in the header */
 }
-
-/* Title Styling for "Quhura Fathima" */
-header h1 {
-  color: white;  /* White color for name */
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-
-/* Subtitle Styling for "Computer Science Graduate Student at ODU" */
-/* Header Section - Subtitle Styling */
-header h2 {
-  color: white !important;  /* Ensure white color for subtitle */
-  font-size: 1.5em;         /* Adjust size as needed */
-  margin-top: 0;
-  font-weight: normal;      /* Optional: adjust the boldness */
-}
-
 
 /* Profile Image Centering and Size */
 .profile-img {
@@ -52,13 +35,12 @@ section {
   background-color: white;  /* White background for content */
   padding: 30px;
   margin: 20px auto;  /* Center the section */
-  max-width: 1200px;  /* Set a reasonable max-width */
+  max-width: 900px;  /* Limit the width of content to prevent it from expanding too far */
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
   text-align: justify; /* Justify text for better readability */
 }
 
-/* About Me Section Styling */
 h2 {
   color: #0066cc;  /* Blue color for section titles */
   font-size: 1.75em;
@@ -71,11 +53,11 @@ p {
   color: #555;  
 }
 
-/* Ensure content is centered with no excessive gaps */
+/* Ensure content is centered but doesn’t have excessive gaps */
 .content {
-  max-width: 1200px;  /* Limit content width */
+  max-width: 700px;  /* Limit content width */
   margin: 0 auto;  /* Center the content */
-  padding: 0 15px;  /* Some padding for inner spacing */
+  padding: 0 20px;  /* Some padding for inner spacing */
 }
 
 a {

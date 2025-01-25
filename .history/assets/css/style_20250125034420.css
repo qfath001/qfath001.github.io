@@ -26,12 +26,11 @@ header h1 {
 /* Subtitle Styling for "Computer Science Graduate Student at ODU" */
 /* Header Section - Subtitle Styling */
 header h2 {
-  color: white !important;  /* Ensure white color for subtitle */
+  color: rgb(245, 103, 64) !important;  /* Ensure white color for subtitle */
   font-size: 1.5em;         /* Adjust size as needed */
   margin-top: 0;
   font-weight: normal;      /* Optional: adjust the boldness */
 }
-
 
 /* Profile Image Centering and Size */
 .profile-img {

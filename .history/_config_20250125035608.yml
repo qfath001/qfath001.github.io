@@ -28,7 +28,8 @@ github_username:  qfath001
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed # Enable the jekyll-feed plugin (comment out if you don't want it)
+  # Disabled the RSS feed plugin to avoid posts and the feed
+  # - jekyll-feed
 
 # Disable showing posts on the homepage
 show_excerpts: false

@@ -1,0 +1,78 @@
+/* Header Section */
+header {
+  background-color: #0066cc;  /* Deep blue header */
+  color: white;
+  padding: 30px;
+  text-align: center;  /* Ensure everything is centered in the header */
+}
+
+/* Styling for the subtitle */
+header h2 {
+  color: white;  /* Make the subtitle (Computer Science Graduate Student) white */
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Profile Image Centering and Size */
+.profile-img {
+  width: 220px;  /* Increase the image size */
+  height: 220px;
+  border-radius: 50%;  /* Circular image */
+  border: 5px solid white;  /* White border around image */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to image */
+}
+
+/* Content Section */
+section {
+  background-color: white;  /* White background for content */
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0066cc;  /* Blue color for section titles */
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;  
+  line-height: 1.6; 
+  color: #555;  
+  text-align: justify; /* Justify the paragraph text */
+}
+
+/* Center the text */
+.content {
+  max-width: 800px;  
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}

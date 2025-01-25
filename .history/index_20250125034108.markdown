@@ -3,7 +3,6 @@ layout: home
 ---
 
 
-
 ![Profile Picture](/assets/images/professionalpicture_fathima.jpg){:class="profile-img"}
 
 ## About me

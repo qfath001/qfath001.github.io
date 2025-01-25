@@ -12,26 +12,9 @@ body {
 header {
   background-color: #0066cc;  /* Deep blue header */
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;  /* Center header content */
 }
-
-/* Title Styling for "Quhura Fathima" */
-header h1 {
-  color: white;  /* White color for name */
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-
-/* Subtitle Styling for "Computer Science Graduate Student at ODU" */
-/* Header Section - Subtitle Styling */
-header h2 {
-  color: white !important;  /* Ensure white color for subtitle */
-  font-size: 1.5em;         /* Adjust size as needed */
-  margin-top: 0;
-  font-weight: normal;      /* Optional: adjust the boldness */
-}
-
 
 /* Profile Image Centering and Size */
 .profile-img {

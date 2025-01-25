@@ -2,7 +2,10 @@
 layout: home
 ---
 
-
+<header>
+  <h1>Quhura Fathima</h1>
+  <h2>Computer Science Graduate Student at ODU</h2>
+</header>
 
 ![Profile Picture](/assets/images/professionalpicture_fathima.jpg){:class="profile-img"}
 
