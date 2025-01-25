@@ -1,104 +1,115 @@
 /* Base Styles */
 body {
-    background-color: #f4f7fc; /* Light background color */
-    color: #333;  /* Dark text for readability */
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean and modern font */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #0066cc;  /* Deep blue header */
-    color: white;
-    padding: 30px;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin: 0;
-  }
-  
+  background-color: #f4f7fc; /* Light background color */
+  color: #333;  /* Dark text for readability */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Clean and modern font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0066cc;  /* Deep blue header */
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.profile-img {
+  width: 220px;  /* Slightly increased image size */
+  height: 220px;
+  border-radius: 50%;  /* Circular image */
+  border: 5px solid white;  /* White border around image */
+  margin-top: 20px;
+  margin-bottom: 20px; /* Space below the image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to image */
+}
+
+section {
+  background-color: white;  /* White background for content */
+  padding: 40px;
+  margin: 20px auto;  /* Center the section */
+  max-width: 800px;  /* Limit width for better readability */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+}
+
+h2 {
+  color: #0066cc; /* Blue color for section titles */
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;  /* Slightly larger text for paragraphs */
+  line-height: 1.6;  /* Improve line height for readability */
+  color: #555;  /* Lighter text color */
+  text-align: justify; /* Justify the paragraph text */
+}
+
+/* Center the text */
+.content {
+  max-width: 800px;  /* Limit the width */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Special style for the "Computer Science Graduate Student at ODU" */
+header h2 {
+  color: white;  /* Change the text color to white */
+}
+
+a {
+  color: #0066cc;  /* Blue links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+  color: #004d99; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;  /* Dark footer */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
   .profile-img {
-    width: 180px;  /* Slightly increased image size */
-    height: 180px;
-    border-radius: 50%;  /* Circular image */
-    border: 5px solid white;  /* White border around image */
-    margin-top: 20px;
-    margin-bottom: 20px; /* Space below the image */
-    display: block;
-    margin-left: auto;
-    margin-right: auto; /* Center the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to image */
+    width: 150px;  /* Smaller image on mobile */
+    height: 150px;
   }
-  
-  section {
-    background-color: white;  /* White background for content */
-    padding: 40px;
-    margin: 20px auto;  /* Center the section */
-    max-width: 900px;  /* Limit width for better readability */
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
-  }
-  
-  h2 {
-    color: #0066cc; /* Blue color for section titles */
-    font-size: 1.75em;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 1.2em;  /* Slightly larger text for paragraphs */
-    line-height: 1.6;  /* Improve line height for readability */
-    color: #555;  /* Lighter text color */
-  }
-  
-  a {
-    color: #0066cc;  /* Blue links */
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-  }
-  
-  a:hover {
-    color: #004d99; /* Darker blue on hover */
-    text-decoration: underline;
-  }
-  
-  footer {
-    background-color: #333;  /* Dark footer */
-    color: white;
+
+  header {
     padding: 20px;
-    text-align: center;
   }
-  
-  footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+
+  section {
+    padding: 20px;
   }
-  
-  footer a:hover {
-    text-decoration: underline;
+
+  p {
+    font-size: 1.1em;  /* Slightly smaller text on mobile */
   }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    .profile-img {
-      width: 150px;  /* Smaller image on mobile */
-      height: 150px;
-    }
-  
-    header {
-      padding: 20px;
-    }
-  
-    section {
-      padding: 20px;
-    }
-  
-    p {
-      font-size: 1.1em;  /* Slightly smaller text on mobile */
-    }
-  }
-  
+}
