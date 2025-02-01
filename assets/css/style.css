@@ -24,7 +24,6 @@ header h1 {
 }
 
 /* Subtitle Styling for "Computer Science Graduate Student at ODU" */
-/* Header Section - Subtitle Styling */
 header h2 {
   color: white !important;  /* Ensure white color for subtitle */
   font-size: 1.5em;         /* Adjust size as needed */
@@ -68,6 +67,65 @@ p {
   font-size: 1.2em;  
   line-height: 1.6; 
   color: #555;  
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.project-icon {
+  cursor: pointer;
+  text-align: center;
+}
+
+.project-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon p {
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Modal/Pop-up */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Ensure content is centered with no excessive gaps */
@@ -122,5 +180,15 @@ footer a:hover {
 
   p {
     font-size: 1.1em;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-icon img {
+    width: 80px;
+    height: 80px;
   }
 }

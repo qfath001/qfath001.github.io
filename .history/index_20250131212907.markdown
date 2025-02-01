@@ -5,7 +5,7 @@ layout: home
 ![Profile Picture](/assets/images/professionalpicture_fathima.jpg){:class="profile-img"}
 
 ## About Me
-I’m Quhura Fathima, a Computer Science graduate student at Old Dominion University with over 2 years of experience in full-stack development, database optimization, and cloud deployment. My technical expertise spans Java, Python, C++, JavaScript, SAP HANA, MySQL, and cloud platforms like AWS and Azure. I have a strong foundation in Cybersecurity, AI, and ML, with practical experience in implementing secure systems and developing data-driven solutions. In addition, I’ve worked at Accenture as an Application Development Associate, where I optimized database performance and automated processes, and at Cognizant, where I contributed to database management and business intelligence reporting. Beyond my technical skills, I am the President of ACM-W at Old Dominion University, leading initiatives to empower women in computing and foster community engagement. I am always eager to learn and apply new technologies to solve real-world problems, and I enjoy contributing to the tech community through leadership and collaboration.
+I’m Quhura Fathima, a Computer Science graduate student at Old Dominion University with 2+ years of experience in full-stack development and database optimization. During my time at Accenture as an Application Development Associate, I enhanced database performance, automated processes, and ensured the high availability of critical systems. My technical expertise spans Java, React.js, Node.js, SAP HANA, MySQL, Python, and cloud platforms like AWS and Azure. I’ve successfully deployed projects such as a Course Advising Portal and Library Management System, utilizing technologies like Firebase, Render, and MySQL. In addition to my technical skills, I am the President of ACM-W at Old Dominion University, leading initiatives to promote women in computing and fostering community engagement. I am always eager to learn and apply new technologies to solve real-world problems, and I enjoy contributing to the tech community through leadership and collaboration.
 
 ## Projects
 
@@ -39,7 +39,7 @@ I’m Quhura Fathima, a Computer Science graduate student at Old Dominion Univer
       projectDetails = `
         <h2>Course Advising Portal</h2>
         <p><strong>Technologies:</strong> React.js, Node.js, Express.js, MySQL, Firebase, Render</p>
-        <p><strong>Summary:</strong> Developed a student advising system to streamline course advising with real-time validation and form submission. Built an admin dashboard with role-based access for form approval, reducing manual workload by 40%. </p>
+        <p><strong>Summary:</strong> Developed a student advising system to streamline course advising with real-time validation and form submission. Built an admin dashboard with role-based access for form approval, reducing manual workload by 40%.</p>
       `;
     } else if (projectId === 2) {
       projectDetails = `

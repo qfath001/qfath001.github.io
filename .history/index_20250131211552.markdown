@@ -1,0 +1,44 @@
+---
+layout: home
+---
+
+![Profile Picture](/assets/images/professionalpicture_fathima.jpg){:class="profile-img"}
+
+## About Me
+I’m Quhura Fathima, a Computer Science graduate student at Old Dominion University with 2+ years of experience in full-stack development and database optimization. During my time at Accenture as an Application Development Associate, I enhanced database performance, automated processes, and ensured the high availability of critical systems. My technical expertise spans Java, React.js, Node.js, SAP HANA, MySQL, Python, and cloud platforms like AWS and Azure. I’ve successfully deployed projects such as a Course Advising Portal and Library Management System, utilizing technologies like Firebase, Render, and MySQL. In addition to my technical skills, I am the President of ACM-W at Old Dominion University, leading initiatives to promote women in computing and fostering community engagement. I am always eager to learn and apply new technologies to solve real-world problems, and I enjoy contributing to the tech community through leadership and collaboration.
+
+## Projects
+
+<div class="projects-container">
+  <div class="project-icon" onclick="showProjectDetails(1)">
+    <img src="/assets/icons/course-advising-icon.png" alt="Course Advising Portal">
+    <p>Course Advising Portal</p>
+  </div>
+  <div class="project-icon" onclick="showProjectDetails(2)">
+    <img src="/assets/icons/library-system-icon.png" alt="Library Management System">
+    <p>Library Management System</p>
+  </div>
+  <div class="project-icon" onclick="showProjectDetails(3)">
+    <img src="/assets/icons/gesture-system-icon.png" alt="Gesture-Based Input System">
+    <p>Gesture-Based Input System</p>
+  </div>
+</div>
+
+<!-- Project Modal/Pop-up -->
+<div id="project-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="project-details"></div>
+  </div>
+</div>
+
+
+### Contact Information
+- **Email**: [quhurafathima56@gmail.com](mailto:quhurafathima56@gmail.com)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/quhurafathima/)
+
+## Resume
+You can download my resume as a PDF by clicking the link below:
+[Download Resume](assets/Resume_Latest_Fathima.pdf)
+
+---

@@ -39,7 +39,7 @@ I’m Quhura Fathima, a Computer Science graduate student at Old Dominion Univer
       projectDetails = `
         <h2>Course Advising Portal</h2>
         <p><strong>Technologies:</strong> React.js, Node.js, Express.js, MySQL, Firebase, Render</p>
-        <p><strong>Summary:</strong> Developed a student advising system to streamline course advising with real-time validation and form submission. Built an admin dashboard with role-based access for form approval, reducing manual workload by 40%. </p>
+        <p><strong>Summary:</strong> Developed a student advising system to streamline course advising with real-time validation and form submission. Built an admin dashboard with role-based access for form approval, reducing manual workload by 40%.</p>
       `;
     } else if (projectId === 2) {
       projectDetails = `
